@@ -28,7 +28,7 @@
                 "items": [
                     {
                         "id": "{{ $purchasable->id }}",
-                        "name": "{{ $purchasable->product->title }} | {{ $purchasable->title }}",
+                        "name": "{{ $purchasable->title }}",
                         "quantity": 1,
                         "price": {{ $purchasable->getAverageEarnings() }}
                     }
